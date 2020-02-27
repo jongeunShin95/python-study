@@ -1,6 +1,5 @@
 ---
 title: Numpy and Create data
-type: major
 ---
 
 * Numpy 개념

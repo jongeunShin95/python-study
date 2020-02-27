@@ -38,10 +38,11 @@
 			</form>
 
 			<nav {% if site.show_full_navigation %}class="full-navigation"{% endif %}>
+
 				<ul>
 					<li class="nav-item top-level {% if page.url == '/' %}current{% endif %}">
-						{% assign home = site.html_pages | where: 'url', '/' | first %}
-						<a href="{{ site.baseurl }}/">{{ home.title }}</a>
+						{% assign changelog = site.html_pages | where: 'url', '/' | first %}
+						<a href="{{ site.baseurl }}/">{{ changelog.title }}</a>
 					</li>
 				</ul>
 
@@ -60,12 +61,12 @@
 					{% endfor %}
 				</ul>
 
-				<ul>
-					<li class="nav-item top-level {% if page.url == '/changelog/' %}current{% endif %}">
-						{% assign changelog = site.html_pages | where: 'url', '/changelog/' | first %}
-						<a href="{{ site.baseurl }}/changelog/">{{ changelog.title }}</a>
+				<!-- <ul>
+					<li class="nav-item top-level {% if page.url == '/' %}current{% endif %}">
+						{% assign home = site.html_pages | where: 'url', '/' | first %}
+						<a href="{{ site.baseurl }}/">{{ home.title }}</a>
 					</li>
-				</ul>
+				</ul> -->
 			</nav>
 		</header>
 
