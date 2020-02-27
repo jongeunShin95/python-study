@@ -5,7 +5,7 @@ order: 2
 ---
 
 ---
-## array()
+## 1. array()
 
 * #### 1차원
 
@@ -32,7 +32,7 @@ print(arr)
 
 ---
 
-## arrange()
+## 2. arrange()
 
 * #### 1개의 인자값
 
@@ -69,7 +69,7 @@ print(arr)
     >>> [1 3 5 7 9]
 
 ---
-## ones(), zeros()
+## 3. ones(), zeros()
 
 * #### ones()
 
