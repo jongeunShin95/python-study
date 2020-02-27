@@ -20,12 +20,10 @@ NumPy is the fundamental package for scientific computing with Python. It contai
 
 ---
 ## Installation
-
     $ pip install numpy
 
 ---
 ## Usage
-
 ```python
 import numpy as np
 ```
