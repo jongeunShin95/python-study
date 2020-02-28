@@ -52,7 +52,7 @@ import numpy as np
 arr = np.array([1, 2, 3, 4, 5, 6]) # 6 x 1 리스트 생성
 arr2 = arr.reshape(2, 3)
 print(arr2)
-print(arr.shape)
+print(arr2.shape)
 ```
 
     >>> [[1 2 3]
