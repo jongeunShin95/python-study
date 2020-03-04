@@ -87,3 +87,5 @@ print(np.sum(arr, axis=1))
     >>> [[1 2 3]
         [4 5 6]]
     >>> [6 15]
+
+![2_aixs_0](../../images/numpy_axis/2_axis_1.png)
