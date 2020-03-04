@@ -60,7 +60,7 @@ print(np.sum(arr))
 
 axis가 0 이고 2 x 3 행렬에서의 출력값은 2행이 지워진 3열이 나오게 된다.
 
-![2_aixs_0](../../images/numpy_axis/2_aixs_0.png)
+![2_aixs_0](../../images/numpy_axis/2_axis_0.png)
 
 ```python
 import numpy as np
@@ -88,4 +88,4 @@ print(np.sum(arr, axis=1))
         [4 5 6]]
     >>> [6 15]
 
-![2_aixs_0](../../images/numpy_axis/2_aixs_1.png)
+![2_aixs_0](../../images/numpy_axis/2_axis_1.png)
