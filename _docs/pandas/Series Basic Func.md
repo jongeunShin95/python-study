@@ -1,5 +1,5 @@
 ---
-title: Series
+title: Series Basic Func
 category: pandas
 order: 3
 ---
