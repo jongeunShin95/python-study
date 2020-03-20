@@ -10,6 +10,7 @@ order: 3
 예제들을 위한 데이터 생성
 
 * ### dataset
+
 ```python
 import pandas as pd
 import numpy as np
@@ -37,6 +38,8 @@ print(pd_data.size)
 
     >>> 5
 
+---
+
 ### 3. shape
 
 몇과 열을 반환한다.
@@ -47,6 +50,8 @@ print(pd_data.shape)
 
     >>> (5,)
 
+---
+
 ### 4. unique()
 
 중복되는 값은 빼고 반환다.
@@ -56,6 +61,8 @@ print(pd_data.unique())
 ```
 
     >>> array([1., 2., 3., nan])
+
+---
 
 ### 5. mean()
 
@@ -68,6 +75,8 @@ print(pd_data.mean())
     >>> 1.75
 
 
-### head, tail
+---
+
+### 6. head, tail
 
 각각 상위, 하위 5개의 데이터를 출력해준다. 나중에 많은 데이터들을 다룰 때 데이터들이 제대로 들어갔는지 확인하기 위해 사용된다. 인자값으로 갯수를 넘겨주면 해당 갯수만큼 출력된다.
