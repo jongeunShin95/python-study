@@ -42,7 +42,7 @@ print(pd_data.size)
 
 ## 3. shape
 
-몇과 열을 반환한다.
+행과 열을 반환한다.
 
 ```python
 print(pd_data.shape)
